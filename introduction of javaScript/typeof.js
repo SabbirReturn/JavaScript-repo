@@ -5,4 +5,4 @@ console.log(number,name,isPoor);
 
 console.log(typeof number);
 console.log(typeof name);
-console.log(typeof isPoor);;
+console.log(typeof isPoor);
