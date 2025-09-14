@@ -1,3 +1,13 @@
+/*****
+ *  structure
+ * condition ? when condition is true : when condition is false
+ * 
+ * 
+ * / 
+
+
+
+
 let age = 18;
 // if(age<=18){
 //     console.log('Vote dao')
