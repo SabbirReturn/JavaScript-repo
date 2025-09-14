@@ -1,9 +1,5 @@
-/*****
- *  structure
- * condition ? when condition is true : when condition is false
- * 
- * 
- * / 
+// *  structure
+//  * condition ? when condition is true : when condition is false
 
 
 
@@ -50,4 +46,4 @@ let isLeader = true;
 price = isLeader? 
             price>1000 ? price /2 : 0
             : price+100;
-console.log(price)
+console.log(price);
