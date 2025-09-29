@@ -1,3 +1,8 @@
+// let num = 0;
+// while(num<10){
+//     console.log('Hello', num)
+//     num++
+// }
 let num = 0;
 while(num<10){
     console.log('Hello', num)
