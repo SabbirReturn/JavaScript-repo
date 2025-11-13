@@ -5,3 +5,6 @@ const colors = {
     blue: "#0000ff",
     "golden rod": '#daa520'
 };
+
+let value = colors['golden rod']
+console.log(value)
