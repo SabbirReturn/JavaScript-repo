@@ -9,5 +9,6 @@ let myObject = {
 
 let keys = Object.keys(myObject);
 for(let key of keys){
-    console.log('key:', key, "|",'Type:', typeof[key])
+    let type = myObject[key]
+    console.log('key:', key, "|",'Type:', typeof(type))
 }
