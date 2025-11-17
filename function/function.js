@@ -26,3 +26,13 @@ function addNumber(num1, num2){
 
 let sumOfNumber = addNumber(55,80);
 console.log(sumOfNumber)
+addNumber(40,3);
+
+
+function difference(num1,num2){
+    let diff = num1 -num2;
+    console.log(diff)
+}
+let fatherAge = 40;
+let myAge = 10;
+difference(fatherAge,myAge)
