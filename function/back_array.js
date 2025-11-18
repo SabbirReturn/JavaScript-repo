@@ -13,8 +13,8 @@ function refine(nums){
     //     even: evenNumber,
     //     odd: oddNumber
     // }
-    // return['even:',evenNumber, 'oddNumber',oddNumber]
-    return[`Even: ${evenNumber}, Odd: ${oddNumber}`]
+    return['even:',evenNumber, 'oddNumber',oddNumber]
+    // return[`Even: ${evenNumber}, Odd: ${oddNumber}`]
 }
 
 let numbers = refine([1,2,3,4,5,6,7,8,9,10])
