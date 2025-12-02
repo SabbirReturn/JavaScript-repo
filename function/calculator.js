@@ -35,7 +35,8 @@ function calculator(a,b,operation){
                     return result;
                 }
                 else{
-                    return `Sorry`
+                    // return `Sorry`
+                    return `sorry`
                 }
             }
         }
