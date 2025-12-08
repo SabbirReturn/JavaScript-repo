@@ -16,6 +16,13 @@ else{
 }
 
 
+// let birianyPrice = 300;
+// if(birianyPrice<400){
+//     console.log('Give me a packet')
+// }
+// else{
+//    console.log('No need to a packet') 
+// }
 let birianyPrice = 300;
 if(birianyPrice<400){
     console.log('Give me a packet')
