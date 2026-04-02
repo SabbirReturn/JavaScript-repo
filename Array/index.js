@@ -4,3 +4,4 @@ nums[1] = 100000
 let num1 = nums[1]
 console.log(nums)
 console.log(num1)
+console.log(num1)
