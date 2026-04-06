@@ -16,5 +16,8 @@ let add1 = function(a,b){
 
 // arrow function
 
-let add3 = (a,b) => a+b;
+let add3 = (a,b) => {
+    let result = a +b;
+    return result
+}
 console.log(add3(12,13))
