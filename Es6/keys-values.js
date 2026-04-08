@@ -29,5 +29,6 @@ function valueKey(object){
         return(`${keys} : ${values}`)
     }
 }
+// let result = valueKey(person);
 let result = valueKey(person);
 // console.log(result)
