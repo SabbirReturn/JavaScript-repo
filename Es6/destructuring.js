@@ -1,13 +1,13 @@
 
 
 let actor = {
-    name: 'Sabbir',
+    title: 'Sabbir',
     age: 25,
     profession:'Acting'
 }
 
-// let {name,age, profession:prop,address='default' } = actor;
-// console.log(address)
+let {title ,age, profession:prop,address='default' } = actor;
+// console.log(prop)
 // console.log(name,age,prop)
 
 
@@ -26,8 +26,8 @@ let person = {
     }
 }
 
-let{address:{city}} = person;
-// console.log(city);
+let{address:{city:town, village ="Uttara"}} = person;
+console.log(town, village);
 
 
 const response = {
@@ -40,4 +40,4 @@ const response = {
 }
 
 const { data:{user:{name, email}}} = response
-console.log(email);
+// console.log(email);
