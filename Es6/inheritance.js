@@ -3,6 +3,9 @@ class vehicle{
         this.name = name;
         this.price = price;
     }
+    using(oil){
+        console.log(`Using ${oil}`)
+    }
 }
 
 class bus extends vehicle{
@@ -10,9 +13,7 @@ class bus extends vehicle{
         super(name,price);
         this.model = model;
     }
-    using(oil){
-        console.log(`Using ${oil}`)
-    }
+    
 }
 
 class car extends bus{
@@ -24,6 +25,6 @@ class car extends bus{
 
 let car1 = new car('Toyota',1200000,'2002')
 let bus1 = new bus('Sb super Deluxe',6000000, 2022);
-bus1.using('Desel')
+bus1.using('desel')
 console.log(bus1)
 console.log(car1)
