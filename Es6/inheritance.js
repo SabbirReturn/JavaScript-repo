@@ -54,4 +54,5 @@ class bird extends animal{
 
 let bird1 = new bird('Kokil','1 year', 23000);
 bird1.talking('kuhu kuhu')
+// console.log(bird1)
 console.log(bird1)
