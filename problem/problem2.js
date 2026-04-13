@@ -11,7 +11,6 @@ let checkEvenName = (friends)=>{
     }
    return [evenArray, oddArray]
 }
-// let friendName = ['sabbir','hasan','robin','misu','haque','oysi']
-// console.log(checkEvenName(friendName))
+
 let friendName = ['sabbir','hasan','robin','misu','haque','oysi']
 console.log(checkEvenName(friendName))
