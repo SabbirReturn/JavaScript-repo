@@ -15,4 +15,11 @@ function totalAge(peoples){
     return sum
 }
 let total1 = totalAge(peoples)
-console.log(total)
+// console.log(total)
+
+function argumentsLength(...num){
+    return num.length
+}
+let ans = argumentsLength([11])
+// console.log(ans)
+console.log(ans)
