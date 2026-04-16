@@ -4,4 +4,5 @@ function total(a,b){
 }
 
 let ans = total(5,6);
+// console.log(total)
 console.log(total)
