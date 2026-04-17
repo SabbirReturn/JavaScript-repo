@@ -6,7 +6,20 @@ function stopWatch(){
     }
 }
 let watch = stopWatch();
-console.log(watch())
-console.log(watch())
-console.log(watch())
-console.log(watch())
+// console.log(watch())
+// console.log(watch())
+// console.log(watch())
+// console.log(watch())
+
+
+function bankAccount(){
+    let balance = 1000;
+    return{
+        getBalance: ()=> balance,
+        deposit: (amount)=> balance += amount
+    }
+}
+let acc = bankAccount();
+console.log(acc.deposit(500))
+
+
