@@ -1,8 +1,12 @@
-function greeting(greetingHandler,name){
-    greetingHandler(name)
+
+function greeting(greet,name){
+    greet(name)
 }
-function greetingHandler(name){
+function greetingMorning(name){
     console.log('Good Morning',name)
 }
-
-greeting(greetingHandler,'Tom')
+function greetingEvening(name){
+    console.log('Good Evening',name)
+}
+greeting(greetingMorning,'Sabbir')
+greeting(greetingEvening,'Misu')
