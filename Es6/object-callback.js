@@ -1,3 +1,7 @@
+function greeting(greet,name){
+    greet(name)
+}
+
 let handler ={
     morning: function(name){
         console.log('Good Morning',name)
@@ -7,8 +11,5 @@ let handler ={
     }
 }
 
-function greeting(greet,name){
-    greet(name)
-}
 greeting(handler.morning,'Sabbir');
 greeting(handler.evening,'Misu')

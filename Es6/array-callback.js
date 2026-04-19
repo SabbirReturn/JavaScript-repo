@@ -1,4 +1,6 @@
-
+function greeting(greet,name){
+    greet(name)
+}
 
 let handlers = [
     function(name){
@@ -8,8 +10,5 @@ let handlers = [
         console.log('Good evening',name)
     }
 ]
-function greeting(greet,name){
-    greet(name)
-}
 
 greeting(handlers[0],'sabbir')
