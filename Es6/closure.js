@@ -12,7 +12,7 @@ let watch = stopWatch();
 // console.log(watch())
 
 
-function bankAccount(){
+function bankAccount(){ 
     let balance = 1000;
     return{
         getBalance: ()=> balance,
