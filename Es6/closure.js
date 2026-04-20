@@ -20,6 +20,7 @@ function bankAccount(){
     }
 }
 let acc = bankAccount();
+// console.log(acc.deposit(500))
 console.log(acc.deposit(500))
 
 
