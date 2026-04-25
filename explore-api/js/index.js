@@ -14,3 +14,15 @@ function displayUser2(users){
         ul.appendChild(li)
     }
 }
+
+
+function loadData3(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then(data=> displayUser3(data))
+}
+function displayUser3(datas){
+    for(let data of datas){
+        console.log(data.name)
+    }
+}
