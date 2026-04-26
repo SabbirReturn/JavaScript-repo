@@ -19,4 +19,5 @@ function displayShow(posts){
         postContainer.appendChild(divContainer)
     }
 }
+
 user();
