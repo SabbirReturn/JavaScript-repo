@@ -8,4 +8,4 @@ function b(){
     console.log('b')
 }
 
-a()
+// a()
