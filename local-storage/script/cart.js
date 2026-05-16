@@ -6,8 +6,9 @@ let addCart = ()=>{
     productField.value = '';
     quantityField.value = '';
 
+    // console.log(productName,productQuantity);
     console.log(productName,productQuantity);
-    disPlayShow(productName,productQuantity)
+    disPlayShow(productName,productQuantity);
 }
 
 let disPlayShow = (productName,productQuantity)=>{
@@ -16,6 +17,5 @@ let disPlayShow = (productName,productQuantity)=>{
     let li = document.createElement('li')
     li.innerText = `${productName} : ${productQuantity}`
 
-    // productContainer.appendChild(li);
     productContainer.appendChild(li);
 }
