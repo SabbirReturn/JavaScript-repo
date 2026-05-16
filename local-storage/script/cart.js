@@ -16,5 +16,6 @@ let disPlayShow = (productName,productQuantity)=>{
     let li = document.createElement('li')
     li.innerText = `${productName} : ${productQuantity}`
 
+    // productContainer.appendChild(li);
     productContainer.appendChild(li);
 }
