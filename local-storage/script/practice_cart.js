@@ -29,6 +29,6 @@ let saveLocalStorage = (product,quantity)=>{
     let cart = getProductCart();
     cart[product] = quantity;
     let cartStringified = JSON.stringify(cart);
-    localStorage.setItem('cart',cartStringified)
+    localStorage.setItem('cart',cartStringified);
     
 }
