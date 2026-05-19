@@ -41,4 +41,5 @@ let displayShowLocalStorage = ()=>{
         displayShow(product,quantity)
     }
 }
+// displayShowLocalStorage();
 displayShowLocalStorage();
