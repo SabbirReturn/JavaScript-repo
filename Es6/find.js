@@ -26,5 +26,7 @@ function expect(val){
 
 }
 
+// let ans = expect(5).notTobe(6)
+// console.log(ans)
 let ans = expect(5).notTobe(6)
 console.log(ans)
