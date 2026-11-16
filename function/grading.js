@@ -17,5 +17,7 @@ let gradingSystem = (marks)=>{
     }
 }
 
+
+
 let result = gradingSystem(75)
 console.log(result)
