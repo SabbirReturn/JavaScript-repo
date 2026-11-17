@@ -5,4 +5,5 @@ let gradingSystem = (marks)=>{
 }
 
 let result = gradingSystem(50)
+// console.log(result);
 console.log(result);
